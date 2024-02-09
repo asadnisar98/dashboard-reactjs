@@ -46,7 +46,7 @@ const App = () => {
               <Navbar />
             </div>
 
-          </div>
+    
 
           <div>
             <Routes>
@@ -77,6 +77,8 @@ const App = () => {
               <Route path='/pyramind' element={<Pyramid />} />
               <Route path='/stacked' element=<Stacked /> />
             </Routes>
+          </div>
+
           </div>
 
         </div>
